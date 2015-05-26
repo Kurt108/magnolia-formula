@@ -1,0 +1,58 @@
+---
+driver:
+#  name: vagrant
+  name: ec2
+  aws_access_key_id: AKIAJ33M7DGNLWRXCCWA
+  aws_secret_access_key: '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'
+  aws_ssh_key_id: kitchen
+  security_group_ids: ["sg-88ebcbed","sg-d2ecccb7"]
+  region: eu-west-1
+  availability_zone: eu-west-1c
+  associate_public_ip: true
+  flavor_id: 't2.micro'
+provisioner:
+  name: salt_solo
+  formula: 'magnolia'
+  pillars-from-files:
+    github.sls: github.sls
+    jenkins.sls: ../jenkins-formula/jenkins.sls
+  pillars:
+    top.sls:
+      base:
+        '*':
+          - github
+          - jenkins
+  state_top:
+    base:
+      '*':
+        - magnolia
+        - oracle-java
+        - github
+        - users
+        - jenkins
+        - jenkins.node
+
+  dependancies:
+    - path: '../oracle-java-formula'
+      name: 'oracle-java'
+    - path: '../github-formula'
+      name: 'github'
+    - path: '../jenkins-formula'
+      name: 'jenkins'
+    - path: '../users-formula'
+      name: 'users'
+
+#vagrant
+#platforms:
+#  - name: ubuntu/trusty32
+
+platforms:
+  - name: ubuntu-12.04
+    driver: 
+      image_id: ami-812b43f6
+      username: ubuntu
+transport:
+  ssh_key: '~/.ssh/kitchen-aws.pem'
+
+suites:
+  - name: default
