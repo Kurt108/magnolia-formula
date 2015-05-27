@@ -5,7 +5,7 @@
 		<server>
 			<id>TomcatServer</id>
 			<username>{{ salt['pillar.get']('tomcat:manager:user') }}</username>
-			<password>{{ salt['pillar.get']('tomcat:manager:pass') }}</password>
+			<password>{{ salt['pillar.get']('tomcat:manager:passwd') }}</password>
 		</server>
  
 	</servers>
