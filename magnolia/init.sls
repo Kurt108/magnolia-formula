@@ -3,7 +3,7 @@ maven:
 
 settings.xml:
   file.managed:
-    - name: /etc/skel/.m2/conf/settings.xmp
+    - name: /etc/skel/.m2/settings.xml
     - source: salt://magnolia/settings.xml
     - template: jinja
     - user: root
