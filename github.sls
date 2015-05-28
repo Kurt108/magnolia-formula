@@ -1,0 +1,35 @@
+github:
+  lookup:
+    repository: 'middleware'
+    gh_user: 'JaXt0r'
+  fingerprint: '16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48'
+  sshpub: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWUTCc3POvDNNqxGb4tCDwGk/1bK7e/G25jn7CtdBziEfsCaC2Vx2snqfcLiQqeqK/KlQrnJpQDCy7PWYPWh/r71ydeqUqccztAaj7wEwawj8eaeicjIfCHJDFpQ6sVC84KR4yvLFGpp3+mstxm4jc+Ec7qLMgM+bOXAWgzCcnHqQp/M+KVBuWiAQx8q0gJ+kUuXmDEWk7hKIqKhkpv9VmrKyzkJBsanXqjulUAcJr2hSfNpWpL8CwS4eUJ0WxM3dVr5SJvrrMzVn/h+AKlpH0y2hS8YhcmmCoMmkVVNsMIQZ44VE77LfV9cDfDrfpUo92xGJPW2bNq5FgvCajcyp5 git@github.com'
+  sshpriv: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpAIBAAKCAQEAllEwnNzzrwzTasRm+LQg8BpP9Wyu3vxtuY5+wrXQc4hH7Amg
+    tlcdrJ6n3C4kKnqivypUK5yaUAwsuz1mD1of6+9cnXqlKnHM7QGo+8BMGsI/Hmno
+    nIyHwhyQxaUOrFQvOCkeMryxRqad/prLcZuI3PhHO6izIDPmzlwFoMwnJx6kKfzP
+    ilQblogEMfKtICfpFLl5gxFpO4SiKioZKb/VZqyss5CQbGp16o7pVAHCa9oUnzaV
+    qS/AsEuHlCdFsTN3Va+Uib66zM1Z/4fgCpaR9MtoUvGIXJpgqDJpFVTbDCEGeOFR
+    O+y31fXA3w636VKPdsRiT1tmzauRYLwmo3MqeQIDAQABAoIBAQCDQT3bmyvFrMNn
+    NTxc6pzgS3mKam6AE5eUMZMKXkw4tcVnnDiTP5qPwrH8luXJmfBGUKXStxofz6G3
+    lbNqsF2zXP1YHWHfoCM6yPpPaeiKbRdEbWJKYIOiweLAUpJvc8sPlQfjcdSyRocr
+    bOs8tn1ZxgodU/+lnOxrQPtBH0MI6mgA7GMP3HYjGIShajiCEpbjRDEDGzTWQi/Z
+    nMHpyBPH1bOAc/wt2ykJ4gg74Ijld32GybiHrmSqMwCT21K+uQfQr8zFTHXfcYUG
+    0R5Lh3hYvyH3vSrFrjbBkbJ08O5sL4BrCYcEM9mJaqFgdb8VkHupPhN5DYym89YX
+    FQCtSq2hAoGBAMYTEw2TKUBPUXgXLz18LFWBz5EdElAQUL2dW/SEKUcuuUkPKYd7
+    iPSWbPbTC3rAi5wQWaB8TOlM2E7i9q3L+rOBjL7XQs9yH67YAoVUexJD1jX39Twb
+    WflT6ks22cSBG4vuVYfMFBcwynRZZ4eWnVLhlkpSLqTzI20u5b6bHSY1AoGBAMJG
+    ve93/0RRVo+RPE0c4yflyOaxVD87SzL9NmCrcsvhrWQZCaJx7RiyrfVEztspAD42
+    qsk9SCM2JODR6xcqf8000+y/qE8dDeZ0FqqPbj//KCDw0MlSKnj91XziFtS98GNP
+    +rYYQFnecCIphV8Hh0VA6yYxFKV9TVQFaS7FQ2u1AoGAKR2kgtjdY0ATxT3qzHSO
+    L2G22ISUXJJGcFXN1L/qYaBNTeEb2cfG8h6Xl9TPOTfmwwqR0EJ9JKCS9i0ez4zc
+    CY8GzEaa07z43q5wN4UF1xDF0oYaHdP/pUXKCLrmEWhLc4yRrJKsSPQT0nsMhpS5
+    K48wR1Uv4YWnAO8PObWxI1ECgYEAq46u0VYE/D5bkyIsvufgjG31MAquG7xvlpJW
+    P52HHRWn+TnG8UVrmyDGT0244X3echHyVQ0hs75vaHzW/jkQbJTXBDznEx3UFYq0
+    LV/FewwGUrh1lyJQ0VFOAh7hDHLCYeDRw5W81d+A5BoIZbePM4+1V5+F3PG+pJC2
+    po+aDvUCgYAoML5ti6yHgfrSR8ajVoc39dtAD6cpK5h92ENDI1dNKaEbLtUmST37
+    Bji7UYWz5t6fRHKqezs7LMrsTWGQKQFmmtUjejBXo8valtVumFT1XvVV+6pJQmBZ
+    g9/jzJyJzDg9GC5be80Nc23u+Y+OC335hrZrjhyJav+k7MBpzza2rw==
+    -----END RSA PRIVATE KEY-----
+
