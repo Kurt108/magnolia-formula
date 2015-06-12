@@ -2,9 +2,7 @@
 driver:
 #  name: vagrant
   name: ec2
-  aws_access_key_id: AKIAJ33M7DGNLWRXCCWA
-  aws_secret_access_key: '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'
-  aws_ssh_key_id: kitchen
+  aws_ssh_key_id: kitchen-aws
   security_group_ids: ["sg-88ebcbed","sg-d2ecccb7"]
   region: eu-west-1
   availability_zone: eu-west-1c
