@@ -1,6 +1,3 @@
-include:
-  - tomcat
-
 maven:
   pkg.installed
 
@@ -19,5 +16,3 @@ jssecacerts:
     - source: salt://magnolia/jssecacerts
     - user: root
     - makedirs: True
-    - require:
-      - sls: tomcat
