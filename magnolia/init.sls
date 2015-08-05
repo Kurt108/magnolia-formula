@@ -1,3 +1,8 @@
+{% from "tomcat/map.jinja" import tomcat with context %}
+
+include:
+  - tomcat
+
 maven:
   pkg.installed
 
@@ -9,3 +14,9 @@ settings.xml:
     - user: root
     - makedirs: True
 
+magnoliadata:
+  file.directory:
+    - name: /var/lib/tomcat7/webapps/magnoliadata_
+    - user: {{ tomcat.name }}{{ tomcat.version }}
+    - require:
+      - sls: tomcat
