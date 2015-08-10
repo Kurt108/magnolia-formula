@@ -7,4 +7,5 @@
 			<password>{{ salt['pillar.get']('tomcat:manager:passwd') }}</password>
 		</server>
 	</servers>
+	<interactiveMode>false</interactiveMode>
 </settings>
